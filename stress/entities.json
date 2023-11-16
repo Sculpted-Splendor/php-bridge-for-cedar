@@ -1,0 +1,17 @@
+[
+  {
+    "uid": { "__entity": { "type": "User", "id": "123"} },
+    "attrs": {},
+    "parents": []
+  },
+  {
+    "uid": { "__entity": { "type": "Action", "id": "read"} },
+    "attrs": {},
+    "parents": []
+  },
+  {
+    "uid": { "__entity": { "type": "File", "id": "/foo/bar"} },
+    "attrs": {},
+    "parents": []
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "uid": { "__entity": { "type": "User", "id": "123"} },
+    "attrs": {},
+    "parents": [
+        { "__entity": { "type": "Group", "id": "Admins" } }
+    ]
+  },
+  {
+    "uid": { "__entity": { "type": "Group", "id": "Admins" } },
+    "attrs": {},
+    "parents": []
+  },
+  {
+    "uid": { "__entity": { "type": "Action", "id": "read"} },
+    "attrs": {},
+    "parents": []
+  },
+  {
+    "uid": { "__entity": { "type": "Action", "id": "delete"} },
+    "attrs": {},
+    "parents": []
+  },
+  {
+    "uid": { "__entity": { "type": "File", "id": "/foo/bar"} },
+    "attrs": {
+      "owner": { "__entity": { "type": "User", "id": "123" } }
+    },
+    "parents": []
+  }
+]

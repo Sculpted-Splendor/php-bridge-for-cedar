@@ -1,0 +1,35 @@
+{
+    "name": "sculpted-splendor/php-bridge-for-cedar",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SculptedSplendor\\PhpBridgeForCedar\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SculptedSplendor\\PhpBridgeForCedar\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Terence Jefferies",
+            "email": "terencethedev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "symfony/process": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.4",
+        "pestphp/pest": "^2.24",
+        "mockery/mockery": "^1.6"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
